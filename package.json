@@ -1,0 +1,15 @@
+{
+  "name": "sema4test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^3.1.5"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Mohammed",
+  "license": "ISC"
+}

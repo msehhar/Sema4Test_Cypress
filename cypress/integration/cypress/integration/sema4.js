@@ -1,0 +1,20 @@
+describe('My First Test in Cypress', function () {
+it('Visits apple site', function () {
+cy.visit('https://www.apple.com')
+cy.contains('Limited time')
+cy.contains('Find a store').click()
+cy.get('#search').type('11423')
+cy.contains('Complete store list').click()
+cy.contains('New York').click()
+cy.contains('Grand Central').click()
+cy.contains('Mac').click()
+cy.contains('Learn more').click()
+cy.contains('Learn more').click()
+cy.contains('iPad').click()
+cy.contains('iOS 12').click()
+cy.contains('Apple Pencil').click()
+cy.contains('buy').click()
+cy.get('.ac-ln-button').click()
+cy.contains('.large-offset-1 > .copy-container > .button').click
+})
+})
